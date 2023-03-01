@@ -5,7 +5,7 @@ metadata:
  namespace: traefik
 spec:
  acme:
-   email: hanso@waaler.tech
+   email: certificates-test@digdir.no
    # We use the staging server here for testing to avoid hitting
    server: https://api.test4.buypass.no/acme/directory
    privateKeySecretRef:
